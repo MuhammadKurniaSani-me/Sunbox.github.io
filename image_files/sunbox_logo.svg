@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="480"
+   height="79.845291"
+   viewBox="0 0 127 21.125733"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   sodipodi:docname="logo_sunbox.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:zoom="1"
+     inkscape:cx="197.5"
+     inkscape:cy="41.5"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect106287"
+       is_visible="true"
+       lpeversion="1"
+       linejoin_type="miter"
+       unit="mm"
+       offset="2.6778313"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect108602"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1 @ F,0,0,1,0,8,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="8"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect108220"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="2"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect91399"
+       is_visible="true"
+       lpeversion="1"
+       linejoin_type="miter"
+       unit="mm"
+       offset="2.2772904"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect91172"
+       is_visible="true"
+       lpeversion="1"
+       linejoin_type="miter"
+       unit="mm"
+       offset="2.2772904"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18957">
+      <path
+         id="path18959"
+         style="opacity:0.488626;fill:#ffffff;stroke-width:4.70516"
+         d="m -211.99053,723.5117 h 95.69558 v 95.69556 h -95.69558 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46235">
+      <path
+         id="path46237"
+         style="fill:#ffffff;stroke-width:3.12782"
+         d="m -97.327965,471.71095 h 63.614877 v 63.61488 h -63.614877 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath46358">
+      <path
+         id="path46360"
+         style="fill:#ffffff;stroke-width:5.29526"
+         d="M -743.15439,473.33141 H -635.4572 V 581.0286 h -107.69719 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath48222">
+      <path
+         id="path48224"
+         style="opacity:1;fill:#ffffff;stroke-width:4.34687"
+         d="m -719.92043,574.51126 h 88.40838 v 88.40837 h -88.40838 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath48356">
+      <path
+         id="path48358"
+         style="opacity:1;fill:#ffffff;stroke-width:5.73654"
+         d="M 1588.4729,455.90533 H 1471.8007 V 339.23305 h 116.6722 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath48360">
+      <path
+         id="path48362"
+         style="fill:#ffffff;stroke-width:3.89017"
+         d="m -818.85319,582.1738 h 79.11978 v 79.11978 h -79.11978 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1706">
+      <ellipse
+         style="opacity:1;fill:#b3b3b3;stroke-width:5.02181"
+         id="ellipse1708"
+         cx="-988.98315"
+         cy="66.217453"
+         rx="20.494276"
+         ry="20.494228"
+         transform="rotate(90)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1486">
+      <path
+         id="path1488"
+         style="fill:#006b2b;stroke-width:2.50592;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="m -45.723223,-1009.4776 v 40.98869 H -86.71168 v -40.98869 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4083">
+      <path
+         id="path4085"
+         style="fill:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="M 433.57609,75.440744 A 10.804686,10.804686 0 0 1 422.7714,86.24543 10.804686,10.804686 0 0 1 411.96672,75.440744 10.804686,10.804686 0 0 1 422.7714,64.636058 10.804686,10.804686 0 0 1 433.57609,75.440744 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6934">
+      <path
+         id="path6936"
+         style="fill:#ffffff;stroke-width:0.695535;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="M 420.00302,80.204201 A 14.201668,14.201668 0 0 1 402.60961,90.246295 14.201668,14.201668 0 0 1 392.5675,72.852873 14.201668,14.201668 0 0 1 409.96091,62.810779 14.201668,14.201668 0 0 1 420.00302,80.204201 Z" />
+    </clipPath>
+    <symbol
+       id="AirTransportation">
+      <title
+         id="title7723">Air Transportation</title>
+      <path
+         d="m 39,10 v 18 l 25,15 v 7 L 39,41 v 14 l 6,4 v 6 l -9,-3 -9,3 v -6 l 6,-4 V 41 L 8,50 V 43 L 33,28 V 10 a 3,3 0 0 1 6,0 z"
+         style="stroke:none"
+         id="path7725" />
+    </symbol>
+    <symbol
+       id="Heliport">
+      <title
+         id="title7735">Heliport</title>
+      <!-- Pontoon -->
+      <path
+         d="M 31,53 H 61"
+         style="fill:none;stroke-width:6;stroke-linecap:round"
+         id="path7737" />
+      <!-- Body -->
+      <path
+         d="M 30.5,42 29,38 10,30.5 C 7.5,29.5 8,26 11,26 h 41 c 4.5,0 7.4,3 8.5,6 l 3,8 c 1,3 -0.5,5 -3.5,5 H 34 c -2.5,0 -3,-1.5 -3.5,-3 z"
+         style="stroke:none"
+         id="path7739" />
+      <!-- Windows -->
+      <g
+         style="fill:#ffffff;stroke:none"
+         id="g7747">
+        <path
+           d="m 40,36 h 4.5 V 29 H 40 Z"
+           id="path7741" />
+        <path
+           d="m 47,36 h 4.5 V 29 H 47 Z"
+           id="path7743" />
+        <path
+           d="M 58,32.5 59.5,36 H 54 v -7 c 1.5,0.3 3.1,1.5 4,3.5 z"
+           id="path7745" />
+      </g>
+      <!-- Roter -->
+      <g
+         style="fill:none;stroke-width:3"
+         id="g7757">
+        <path
+           d="m 38.5,20 v 6"
+           id="path7749" />
+        <path
+           d="m 33.5,19.5 h 10"
+           style="stroke-width:1.5"
+           id="path7751" />
+        <path
+           d="m 15.5,19.5 h 17"
+           style="stroke-linecap:round"
+           id="path7753" />
+        <path
+           d="m 44.5,19.5 h 17"
+           style="stroke-linecap:round"
+           id="path7755" />
+      </g>
+      <!-- Tail Roter -->
+      <circle
+         cx="10.5"
+         cy="28.5"
+         r="5.5"
+         style="fill:none;stroke-width:2.5"
+         id="circle7759" />
+    </symbol>
+    <symbol
+       id="WaterTransportation">
+      <title
+         id="title7895">Water Transportation</title>
+      <path
+         d="m 32,8 v 5 h -7 v 4 h -4 v 8.25 L 18,26.5 C 17,26.9 16.6,28 17,29 l 4,9 v 13.5 c -2,-0.5 -2.5,-2 -6,-2 -4,0 -4,2 -7,2 v 5 c 4,0 4,-2 7,-2 3,0 3,2 7,2 4,0 4,-2 7,-2 3,0 4,2 7,2 3,0 3,-2 7,-2 4,0 3,2 7,2 4,0 4,-2 7,-2 3,0 3,2 7,2 v -5 c -3,0 -3,-2 -7,-2 -3.5,0 -4,1.5 -6,2 V 38 l 4,-9 c 0.44,-1 0,-2.1 -1,-2.5 L 51,25.25 V 17 H 47 V 13 H 40 V 8 Z m -3,9 h 14 v 4 h 4 v 2.5 L 36,19 25,23.5 V 21 h 4 z M 15,57.5 c -4,0 -4,2 -7,2 v 5 c 4,0 4,-2 7,-2 3,0 3,2 7,2 4,0 4,-2 7,-2 3,0 3,2 7,2 4,0 4,-2 7,-2 3,0 3,2 7,2 4,0 4,-2 7,-2 3,0 3,2 7,2 v -5 c -3,0 -3,-2 -7,-2 -4,0 -4,2 -7,2 -3,0 -3,-2 -7,-2 -4,0 -4,2 -7,2 -3,0 -3,-2 -7,-2 -4,0 -4,2 -7,2 -3,0 -3,-2 -7,-2 z"
+         style="stroke:none"
+         id="path7897" />
+    </symbol>
+    <symbol
+       id="RailTransportation">
+      <title
+         id="title7871">Rail Transportation</title>
+      <g
+         style="stroke:none"
+         id="g7879">
+        <path
+           d="m 27,12 a 8,8 0 0 0 -8,8 v 26 a 8,8 0 0 0 6.156,7.781 L 17,66 h 5 l 6,-9 h 16 l 6,9 h 5 L 46.844,53.781 A 8,8 0 0 0 53,46 V 20 a 8,8 0 0 0 -8,-8 z m 5,2 h 8 a 1,1 0 0 1 1,1 v 2 a 1,1 0 0 1 -1,1 h -8 a 1,1 0 0 1 -1,-1 v -2 a 1,1 0 0 1 1,-1 z m -5,6 h 18 a 4,4 0 0 1 4,4 v 4 a 4,4 0 0 1 -4,4 H 27 a 4,4 0 0 1 -4,-4 v -4 a 4,4 0 0 1 4,-4 z m 2.75,26 a 3.25,3.25 0 1 1 -6.5,0 3.25,3.25 0 1 1 6.5,0 z m 18.75,0 a 3.25,3.25 0 1 1 -6.5,0 3.25,3.25 0 1 1 6.5,0 z"
+           id="path7873" />
+        <circle
+           cx="33.25"
+           cy="9.5"
+           r="2"
+           id="circle7875" />
+        <circle
+           cx="38.75"
+           cy="9.5"
+           r="2"
+           id="circle7877" />
+      </g>
+    </symbol>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18516">
+      <path
+         id="path18518"
+         style="opacity:1;fill:#ffffff;stroke-width:0.449104;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="m 322.84561,112.19117 a 9.1699543,9.1699543 0 0 1 -11.23082,6.48414 9.1699543,9.1699543 0 0 1 -6.48415,-11.23086 9.1699543,9.1699543 0 0 1 11.23085,-6.48413 9.1699543,9.1699543 0 0 1 6.48412,11.23085 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2232">
+      <path
+         id="path2234"
+         style="fill:#ffffff;stroke-width:0.449104;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="m 598.74554,592.41339 a 9.1699543,9.1699543 0 0 1 -11.23085,6.48414 9.1699543,9.1699543 0 0 1 -6.48414,-11.23085 9.1699543,9.1699543 0 0 1 11.23084,-6.48414 9.1699543,9.1699543 0 0 1 6.48415,11.23085 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2320">
+      <path
+         id="path2322"
+         style="fill:#ffffff;stroke-width:0.449104;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="m 598.74554,618.70802 a 9.1699543,9.1699543 0 0 1 -11.23085,6.48412 9.1699543,9.1699543 0 0 1 -6.48414,-11.23085 9.1699543,9.1699543 0 0 1 11.23084,-6.48414 9.1699543,9.1699543 0 0 1 6.48415,11.23087 z" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(6.7490821,-312.91322)">
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:600;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="-406.21912"
+       y="43.697525"
+       id="text177807"><tspan
+         sodipodi:role="line"
+         id="tspan177805"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-406.21912"
+         y="43.697525" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="-429.71609"
+       y="412.97678"
+       id="text1270"><tspan
+         sodipodi:role="line"
+         id="tspan1268"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-429.71609"
+         y="412.97678" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:600;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="-984.43256"
+       y="-40.700745"
+       id="text7003"><tspan
+         sodipodi:role="line"
+         id="tspan7001"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-984.43256"
+         y="-40.700745" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:600;font-size:3.175px;line-height:1;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';text-align:center;text-anchor:middle;white-space:pre;inline-size:49.9068;stroke-width:0.264583"
+       x="-842.27002"
+       y="43.574249"
+       id="text36624" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:600;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';stroke-width:0.264583"
+       x="-900.8811"
+       y="126.25785"
+       id="text2531"><tspan
+         sodipodi:role="line"
+         id="tspan2529"
+         style="stroke-width:0.264583"
+         x="-900.8811"
+         y="126.25785" /></text>
+    <g
+       id="g49650"
+       inkscape:export-filename="/home/sunny/Documents/programming/HTML Programs/proyek1/file_gambar/snnbox.png"
+       inkscape:export-xdpi="560.10352"
+       inkscape:export-ydpi="560.10352"
+       transform="matrix(1.5528352,0,0,1.5528352,-43.512502,-84.354351)">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:600;font-size:15.2229px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.380571"
+         x="36.516502"
+         y="267.96402"
+         id="text49644"><tspan
+           sodipodi:role="line"
+           id="tspan49642"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.380571"
+           x="36.516502"
+           y="267.96402">SUNBOX</tspan></text>
+      <path
+         id="path49646"
+         style="color:#000000;fill:#ff2a2a;fill-opacity:1;stroke-width:0.474478;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+         d="m 23.680127,261.34811 v 8.09021 h 11.023257 v -8.09021 h -3.142487 a 2.3667635,2.3667635 0 0 1 -2.366362,2.36683 2.3667635,2.3667635 0 0 1 -2.367289,-2.36683 z" />
+      <path
+         id="path49648"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:0.584955;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+         d="m 29.189439,255.8337 -0.908643,2.12217 -1.848792,-1.38358 0.27477,2.29315 -2.293616,-0.27477 1.384048,1.84926 -2.122176,0.90818 2.122176,0.90864 -1.384048,1.84879 2.293616,-0.2743 -0.27477,2.29315 1.848329,-1.38405 0.909106,2.12264 0.908643,-2.12264 1.848793,1.38405 -0.275697,-2.29362 2.293616,0.27477 -1.383583,-1.84879 2.122173,-0.90864 -2.122173,-0.90818 1.383583,-1.84926 -2.293616,0.27477 0.275697,-2.29315 -1.848793,1.38358 z m 0,3.14758 a 2.3667635,2.3667635 0 0 1 2.366363,2.36729 2.3667635,2.3667635 0 0 1 -2.366363,2.36683 2.3667635,2.3667635 0 0 1 -2.367289,-2.36683 2.3667635,2.3667635 0 0 1 2.367289,-2.36729 z" />
+    </g>
+  </g>
+</svg>

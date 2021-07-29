@@ -1,0 +1,231 @@
+:root {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb{
+  background: var(--scrollbar);
+}
+
+body {
+  --background-color: white;
+  --header-color: #006680ff;
+  --text-navbar-color-hover: #006680ff;
+  --beranda: url(../image_files/home.png);
+  --scrollbar: #006680ff;
+  --transisi-delai: 1s;
+
+  margin: 0;
+  background-color: var(--background-color);
+  transition: var(--transisi-delai);
+}
+
+body.dark {
+  --background-color: #61787fff;
+  --header-color: #003e4dff;
+  --text-navbar-color-hover: #003e4dff;
+  --beranda: url(../image_files/home_dark.png);
+  --scrollbar: rgba(255, 255, 255, 1);
+  transition: var(--transisi-delai);
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}  
+
+/* HEADER */
+
+header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: var(--header-color);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links {
+  margin: 0 .3rem;
+  padding: .5rem 1.25rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav-links:hover {
+  background-color: white;
+  color: var(--text-navbar-color-hover);
+}
+
+.theme {
+  position: fixed;
+  z-index: 5;
+  right: 0;
+  margin: 0 2.5rem;
+}
+
+.theme .theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transisi-delai);
+  transform: scale(1.2);
+}
+
+.theme-button img {
+  height: 1.8rem;
+}
+
+.theme-button:hover, .theme-button:active {
+  transform: scale(1.55);
+}
+
+/* MAIN */
+section {
+  height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+}
+
+/* MAIN - Home */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: var(--beranda);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: var(--transisi-delai);
+}
+
+.home h1{
+  margin: 0;
+  padding: 25rem 0 0 0;
+  font-size: 2.8rem;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.home h2{
+  margin: 0;
+  font-size: 2.1rem;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+/* ukuran dan posisi tombol tema*/
+@media all and (max-width: 1300px) {
+  .theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 15;
+    bottom: 0;
+    right: 0;
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: .625rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: .3rem;
+  }
+}
+
+/* Media dengan ukuran maksimal 1000px*/
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  /* MAIN - Beranda */
+  .home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* Media dengan ukuran maksimal 670px*/
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  /* HEADER */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tombol-menu {
+    display: flex;
+  }
+
+  .theme {
+    margin: 1.25rem 1.25rem 70px 0;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--header-color);
+    border-radius: 25px;
+    box-shadow: 0px 4px 7px rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    margin: 0 1.25rem 1.25rem 20px;
+  }
+
+  /* MAIN - Beranda */
+
+  .home h1{
+    padding: 20rem 0 0 0;
+    font-size: 1.75rem;
+  }
+
+  .home h2{
+    font-size: 1.3rem;
+  }
+}
