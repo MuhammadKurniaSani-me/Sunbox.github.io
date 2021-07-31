@@ -78,8 +78,15 @@ header {
 .menu {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7.5rem;
 }
 
 .nav-links {
@@ -90,12 +97,26 @@ header {
   color: white;
   font-weight: bold;
   font-size: 1rem;
+  position: relative;
 }
 
-.nav-links:hover {
-  background-color: white;
-  color: var(--text-navbar-color-hover);
+.nav-links::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  border-bottom: 3px solid white;
+  top: 0;
+  left: 0;
+  transition: 1s ease;
+  opacity: 0;
 }
+
+.nav-links.active::after {
+  opacity: 1;
+  width: 100%;
+}
+
 
 .theme {
   position: fixed;
@@ -124,7 +145,6 @@ header {
 section {
   height: 100vh;
   width: 100%;
-  padding-top: 5rem;
 }
 
 /* MAIN - Home */
@@ -151,6 +171,21 @@ section {
   margin: 0;
   font-size: 2.1rem;
   color: rgba(255, 255, 255, 0.9);
+}
+
+.product, .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.product {
+  background-color: #003e4dff;
+}
+
+.profile {
+  background-color: #006680ff;
 }
 
 /* ukuran dan posisi tombol tema*/
@@ -210,7 +245,7 @@ section {
   .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: var(--header-color);
     border-radius: 1.5rem;
     box-shadow: 0 .25rem .4rem rgb(0, 0, 0);
@@ -219,7 +254,7 @@ section {
     right: 0;
     left: 0;
     height: 2.5rem;
-    margin: 0 1.3rem 1.3rem 20px;
+    margin: 0 1.3rem 1.25rem 1.3rem;
   }
 
   /* MAIN - Beranda */
