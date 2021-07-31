@@ -25,6 +25,7 @@ body {
   --background-color: white;
   --header-color: #006680ff;
   --text-navbar-color-hover: #006680ff;
+  --text-background-color-hover: rgba(0, 0, 0, .2);
   --beranda: url(../image_files/home.png);
   --scrollbar: #006680ff;
   --transisi-delai: 1s;
@@ -38,6 +39,7 @@ body.dark {
   --background-color: #61787fff;
   --header-color: #003e4dff;
   --text-navbar-color-hover: #003e4dff;
+  --text-background-color-hover: rgba(255, 255, 255, .2);
   --beranda: url(../image_files/home_dark.png);
   --scrollbar: rgba(255, 255, 255, 1);
   transition: var(--transisi-delai);
@@ -92,12 +94,14 @@ header {
 .nav-links {
   margin: 0 .3rem;
   padding: .5rem 1.25rem;
-  border-radius: 1.5rem;
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, .85);
   font-weight: bold;
   font-size: 1rem;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-links::after {
@@ -117,6 +121,17 @@ header {
   width: 100%;
 }
 
+.nav-links.active, .nav-links:active, .nav-links:hover{
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-links:hover {
+  background-color: var(--text-background-color-hover);
+}
+
+.button-img {
+  display: none;
+}
 
 .theme {
   position: fixed;
@@ -255,6 +270,25 @@ section {
     left: 0;
     height: 2.5rem;
     margin: 0 1.3rem 1.25rem 1.3rem;
+  }
+
+  .menu {
+    min-width: 18rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .nav-links p {
+    display: none;
+  }
+
+  .button-img {
+    display: inline-block;
+    height: 1.6rem;
+    opacity: 1;
   }
 
   /* MAIN - Beranda */
