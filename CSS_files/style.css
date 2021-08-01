@@ -70,7 +70,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
+  margin: .3rem;
 }
 
 .logo img {
@@ -109,7 +109,7 @@ header {
   position: absolute;
   width: 0%;
   height: 100%;
-  border-bottom: 3px solid white;
+  border-bottom: .1875rem solid white;
   top: 0;
   left: 0;
   transition: 1s ease;
@@ -203,6 +203,21 @@ section {
   background-color: #006680ff;
 }
 
+footer {
+  height: 2.5rem;
+  width: 100vw;
+  background-color: var(--header-color);
+  display: flex;
+  align-items: center;
+}
+
+footer h1 {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+
 /* ukuran dan posisi tombol tema*/
 @media all and (max-width: 1300px) {
   .theme {
@@ -254,7 +269,7 @@ section {
   }
 
   .theme {
-    margin: 1.3rem 1.3rem 4.3rem 0;
+    margin: 1.3rem 1.3rem 5rem 0;
   }
 
   .navbar{
@@ -262,13 +277,13 @@ section {
     align-items: center;
     justify-content: center;
     background-color: var(--header-color);
-    border-radius: 1.5rem;
-    box-shadow: 0 .25rem .4rem rgb(0, 0, 0);
+    border-radius: 2rem;
+    box-shadow: 0 .25rem .9rem rgba(0, 0, 0, .5);
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
-    height: 2.5rem;
+    height: 3.2rem;
     margin: 0 1.3rem 1.25rem 1.3rem;
   }
 
@@ -285,10 +300,15 @@ section {
     display: none;
   }
 
+  .nav-links:hover::after,
+  .nav-links:active::after {
+    width: 100%;
+    opacity: 1;
+  }
+
   .button-img {
     display: inline-block;
-    height: 1.6rem;
-    opacity: 1;
+    height: 2.2rem;
   }
 
   /* MAIN - Beranda */
@@ -300,5 +320,14 @@ section {
 
   .home h2{
     font-size: 1.3rem;
+  }
+
+  footer {
+    height: 10rem;
+    align-items: flex-start;
+  }
+
+  footer h1 {
+    padding: 2.5rem 0 0 0;
   }
 }
