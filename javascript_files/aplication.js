@@ -1,19 +1,24 @@
-// theme button setting
-document.querySelector(".theme-button").addEventListener("click", ()=> {document.body.classList.toggle("dark")});
-
-// nav links underline setting function
-function navbarUnderlineMenu() {
-    const section = document.querySelectorAll("section");
-    const navLinks = document.querySelectorAll(".nav-links");
-    section.forEach(section => {
-        section.addEventListener("mouseenter", function() {
-            const id = this.getAttribute("id");
-            const navActive = document.querySelector(`a[href="#${id}"]`);
-            navLinks.forEach(link => link.classList.remove("active"));
-            console.log(navActive);
-            navActive.classList.add("active");
-        });
+function theme() {
+    const themeButton = document.querySelector(".theme-button");
+    themeButton.addEventListener("click", function() {
+        document.body.classList.toggle("dark");
     });
 }
-// run the function
-navbarUnderlineMenu();
+
+theme()
+
+function navbarLinkFocus() {
+    var navLinks = document.getElementsByClassName("nav-links");
+    for (let index = 0; index < navLinks.length; index++) {
+        navLinks[index].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            if (current.length > 0) {
+                current[0].classList.remove("active");
+            }
+            this.classList.add("active");
+        });
+        
+    }
+}
+
+navbarLinkFocus();
