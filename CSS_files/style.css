@@ -121,12 +121,9 @@ header {
   width: 100%;
 }
 
-.nav-links.active, .nav-links:active, .nav-links:hover{
-  color: rgba(255, 255, 255, 1);
-}
-
-.nav-links:hover {
+.nav-links.active, .nav-links:hover {
   background-color: var(--text-background-color-hover);
+  color: rgba(255, 255, 255, 1);
 }
 
 .button-img {
@@ -134,26 +131,60 @@ header {
 }
 
 .theme {
+  --rotation: 0;
   position: fixed;
-  z-index: 5;
+  z-index: 2;
   right: 0;
   margin: 0 2.5rem;
+  transform: rotate(var(--rotation));
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.theme-button {
+  transition: var(--transisi-delai) ease;
+  transform: scale(1);
+}
+
+.theme-button:hover, 
+.theme-button:focus {
+  transform: scale(1.35);
 }
 
 .theme .theme-button {
   display: flex;
-  align-items: center;
   justify-content: center;
-  transition: var(--transisi-delai);
-  transform: scale(1.2);
+  align-items: center;
 }
 
-.theme-button img {
-  height: 1.8rem;
+.sun,
+.moon {
+  transition: var(--transisi-delai) ease;
+  height: 2rem;
+  position: absolute;
+} 
+
+.sun{
+  transform: scale(1);
+  opacity: 1;
 }
 
-.theme-button:hover, .theme-button:active {
-  transform: scale(1.55);
+.dark .sun{
+  transform: scale(0);
+  opacity: 0;
+}
+
+.moon {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.dark .moon {
+  transform: scale(1);
+  opacity: 1;
 }
 
 /* MAIN */
@@ -177,15 +208,16 @@ section {
 
 .home h1{
   margin: 0;
-  padding: 25rem 0 0 0;
-  font-size: 2.8rem;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, .85);
+  text-shadow: 0 0 .7rem rgba(0, 0, 0, .7);
 }
 
 .home h2{
   margin: 0;
-  font-size: 2.1rem;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 0 .7rem rgba(0, 0, 0, .7);
 }
 
 .product, .profile {
@@ -196,7 +228,7 @@ section {
 }
 
 .product {
-  background-color: #003e4dff;
+  background-color: #003e4d;
 }
 
 .profile {
@@ -225,13 +257,13 @@ footer h1 {
     align-items: center;
     justify-content: center;
     position: fixed;
-    z-index: 15;
+    z-index: 3;
     bottom: 0;
     right: 0;
     width: 3.75rem;
     height: 3.75rem;
     margin: .625rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
     border-radius: .3rem;
   }
 }
@@ -247,8 +279,13 @@ footer h1 {
     background-position: center;
   }
 
-  .home h1{
-    padding: 20vh 0 0 0;
+  .home h1 {
+    font-size: 2rem;
+    padding: 30vh 0 0 0;
+  }
+
+  .home h2 {
+    font-size: 1.75rem;
   }
 }
 
@@ -300,7 +337,6 @@ footer h1 {
     display: none;
   }
 
-  .nav-links:hover::after,
   .nav-links:active::after {
     width: 100%;
     opacity: 1;
@@ -309,17 +345,6 @@ footer h1 {
   .button-img {
     display: inline-block;
     height: 2.2rem;
-  }
-
-  /* MAIN - Beranda */
-
-  .home h1{
-    padding: 25vh 0 0 0;
-    font-size: 1.75rem;
-  }
-
-  .home h2{
-    font-size: 1.3rem;
   }
 
   footer {
